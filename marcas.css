@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}  
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    min-height: 30vh;
+}
+
+header h1 {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: white;
+}
+
+.enlace a {
+    position: relative;
+    bottom: 22px;
+    float: right;
+    font-size: 18px;
+    padding: 15px;
+    color: #ffffff;
+    display: block;
+}
+
+.enlace a:hover {
+    color: #806D61;
+}
+
+main {
+    padding: 80px 30px;
+    text-align: center;
+    color: #0E0E0E;
+    
+}
+
+.imagenes {
+    display: flex;
+    align-items: center;
+}
+
+.imagenes img {
+    width: 335px;
+}
+
+.marcas-1 {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.marcas-1 h2 {
+    font-size: 35px;
+    margin-bottom: 15px;    
+}
+
+.marcas-1 p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.marcas-2 {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.marcas-2 h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.marcas-2 p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.boton:hover {
+    background-color: #272727;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 1rem;
+}
